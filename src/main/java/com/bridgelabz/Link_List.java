@@ -47,4 +47,7 @@ public class Link_List {
         previousNode.next = newNode;
         newNode.next = tempNode;
     }
+    public void pop() {
+        this.head = this.head.next;
+    }
 }
